@@ -1,18 +1,19 @@
-# Portfolio
+## Portfolio
 
 <b>Author :</b> Abhishek Biswas
 <br>
 <b>Email :</b> abhishekartist5@gmail.com
 <br>
-Phone Number : +91 9810890273
+<b>Phone Number :</b> +91 9810890273
 <br>
-Profession : Frontend Web Developer
+<b>Profession :</b> Frontend Web Developer
 <br>
-Skills : HTML, CSS, JavaScript and Python
+<b>Skills :</b> HTML, CSS, JavaScript and Python
 <br>
 <br>
-Professional Career 
+
+# Professional Career 
 <br>
-Organization : Tata Consultancy Services
+<b>Organization :</b> Tata Consultancy Services
 <br>
-Year of experience : 3 years
+<b>Year of experience :</b> 3 years
