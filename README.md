@@ -2,21 +2,20 @@
 
 ![image](https://github.com/AbhishekBiswas-github/Portfolio/assets/67058151/3a17ba4e-37b7-4c86-ab18-ba143f4a5dac)
 
-
-<b>Author :</b> Abhishek Biswas
 <br>
-<b>Email :</b> abhishekartist5@gmail.com
-<br>
-<b>Phone Number :</b> +91 9810890273
-<br>
-<b>Profession :</b> Frontend Web Developer
-<br>
-<b>Skills :</b> HTML, CSS, JavaScript and Python
-<br>
+Welcome to my GitHub portfolio! 👋 I'm Abhishek Biswas, and this repository serves as a central hub for showcasing my projects, coding skills, and professional journey. You can find my latest works, see my codebase and get to know my background.
 <br>
 
-# Professional Career 
+# About Me
 <br>
-<b>Organization :</b> Tata Consultancy Services
+I am a passionate Frontend Web Developer with a keen interest in HTML5, CSS3 and Javascript. My journey in the world of programming and technology has been marked by creating an amazing automated tool for the client of my organization. Feel free to explore protfolio
+
+## Contact
 <br>
-<b>Year of experience :</b> 3 years
+I'm always open to collaboration and feedback. Feel free to connect with me through:
+
+- **Email:** abhishekartist5@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/abhishek-biswas-developer/
+- **Phone Number / Whatsapp Number:** +91 9810890273
+
+Let's build something amazing together! 🚀
