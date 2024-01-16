@@ -1,0 +1,94 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+*:focus{
+    box-shadow: 0 0 5px #000;
+}
+:root{
+    --primary-color : #364fc7;
+    --primary-color-lighter : #7f8dd3;
+    --primary-color-darker : #1e2c74;
+    --secondary-color : #fab005;
+    --secondary-color-lighter : #f3c760;
+    --secondary-color-darker : #b98c21;
+    --ternary-color : #f03e3e;
+    --ternary-color-lighter : #ec7a7a;
+    --ternary-color-darker : #bb2b2b;
+    --gray-scale-1 : #212529;
+    --gray-scale-2 : #495057;
+    --grayscale-3 : #adb5bd;
+    --gray-scale-4 : #dee2e6;
+    --gray-scale-5 : #f8f9fa;
+}
+html{
+    font-size: 62.5%;
+}
+/* navigation */
+.main-nav{
+    background-color: #cad0ee;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3.2rem;
+    align-items: center;
+    box-shadow: 0 5px 5px var(--grayscale-3);
+}
+.nav-brand .brand{
+    font-family: 'Borel', cursive;
+    font-size: 2.8rem;
+    padding: 1.8rem 0 0;
+    font-weight: 800;
+    color: var(--primary-color-darker);
+}
+.nav-links{
+    display: flex;
+    justify-content: end;
+    gap: 1.8rem;
+    align-items: flex-start;
+    list-style: none;
+}
+.nav-link a{
+    display: block;
+    font-size: 1.8rem;
+    text-decoration: none;
+    outline: none;
+}
+
+.nav-link a:link,
+.nav-link a:visited{
+    /* border: 2px solid transparent; */
+    padding: 1.2rem 1.6rem;
+    border-radius: 1.2rem;
+    color: var(--gray-scale-2);
+    transition: border 1s ease-in;
+}
+.nav-link a:hover,
+.nav-link a:active{
+    /* border: 2px solid var(--gray-scale-1); */
+    transition: border 2s ease-out;
+
+}
+.link-btn{
+    padding: 1.2rem 1.6rem;
+    font-size: 1.8rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--primary-color-darker);
+    color: var(--gray-scale-5);
+    transition: all 0.5s ease-in-out;
+}
+.link-btn:focus,
+.link-btn:hover{
+    background-color: var(--primary-color);
+}
+/* Intro Section */
+.intro-pic{
+    width: 20px;
+    height: 20px;
+}

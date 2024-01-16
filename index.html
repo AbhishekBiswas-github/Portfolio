@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script defer type="module" src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("l7odYKZcSE4OPQDA5");
+    })();
+    </script>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-brand">
+            <a href="#introduction" class="brand">Portfolio</a>
+        </div>
+        <div class="main-nav-list">
+            <ul class="nav-links">
+                <li class="nav-link menu-link"><a href="#about">About</a></li>
+                <li class="nav-link menu-link"><a href="#experience">Experience</a></li>
+                <li class="nav-link menu-link"><a href="#testimonial">Awards</a></li>
+                <li class="nav-link menu-link"><a href="#skills">Skills</a></li>
+                <li class="nav-link menu-link"><a href="#projects">Projects</a></li>
+                <li class=" menu-link"><a href="#contact" class="link-btn">Contact</a></li>
+            </ul>
+        </div>
+        <button class="btn-mobile-nav">
+            <ion-icon name="menu-sharp" class="icon-mobile-nav"></ion-icon>
+            <ion-icon name="close-sharp" class="icon-mobile-nav"></ion-icon>
+          </button>
+    </nav>
+    <div class="introduction" id="introduction">
+        <div class="background">
+            <img src="images/background.png" alt="background Image">
+        </div>
+        <div class="intro-card">
+            <div class="intro">
+                <h1 class="name">Abhishek Biswas</h1>
+                <p class="spaciality">Frontend Web Developer</p>
+                <a href="#about" class="intro-link intro-link--about">Know More</a>
+            </div>
+        </div>
+    </div>
+    <div class="main-section">
+        <div class="sub-section about-section" id="about">
+            <h3 class="section-heading">about</h3>
+            <p class="about-text"><b class="first-letter">M</b>y name is <b>Abhishek Biswas</b> and welcome to my web development portfolio. I am a passionate and dedicated web developer with a wealth of experience in creating captivating online experiences. With an in-depth understand of various web development technologies, I possess the skills to turns idea into reality. Throughout my journey as a developer, I have been fortunate to work on a diverse range of projects. Each experience has honed my problem solving abilities. This portfolio is a testament to my growth and dedication in the field. I invide you to explore my projects, each demonstrating my profieciency in leveraging the latest technology. </p>
+        </div>
+        <div class="sub-section experience-section" id="experience">
+            <h3 class="section-heading">Experience</h3>
+            <div class="exp-list">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-front">
+                            <div class="front-content">
+                                <div class="first-half">
+                                    <img src="images/tcs logo.jpg" alt="company logo" class="company-logo">
+                                    <p class="company-name">Tata Consultancy Sercives</p>
+                                    <p class="designation">Assistant System Engineer</p>
+                                    <p class="experience_level">3 years experience</p>
+                                    <p class="location">Building No. 6, 3rd & 11th, 2nd to 4th and 11th floor Tower B & Tower, Sector 24 & 25 A, DLF Cyber City, Gurugram, Haryana 122002</p>
+                                </div>
+                                <div class="second-half">
+                                    click to flip
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-back">
+                           <div class="back-content">
+                            <p class="back-title">Roles and Responsibilites</p>
+                            <ul class="roles">
+                                <li class="role">Managing Team and client feedback</li>
+                                <li class="role">Analysis of alert behavour</li>
+                                <li class="role">Innovate new ideas</li>
+                                <li class="role">Automate manual tasks</li>
+                                <li class="role">Cancelling mainframe jobs.</li>
+                                <li class="role">Monitoring Network Operations</li>
+                            </ul>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="testimonials-section" id="testimonial">
+            <div class="image-background">
+                <img src="images/testimonial-bg.jpg" alt="testimonial background">
+            </div>
+            <div class="section-content">
+                <h3 class="section-heading">Awards and Recogitions</h3>
+                <div class="testi-card">
+                    <div class="testi-body">
+                        <p class="testi-label">Contexttual Master</p>
+                        <img src="images/cm-award.webp" alt="testimonial image" class="testi-image">
+                        <p class="testi-detail">
+                            Received for automate manual task of handling alerts. Created a tool using HTML5, CSS3, Javascript.
+                        </p>
+                        <p class="doi">Issued on : October 2022</p>
+                    </div>
+                    <div class="testi-buttons">
+                        <button class="btn btn-testi btn-testi-next">Nest Testimonial</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="main-section skills-projects">
+        <div class="sub-section skills-section" id="skills">
+            <h3 class="section-heading">skills</h3>
+            <div class="skill-list">
+            </div>
+        </div>
+        <div class="sub-section projects-section" id="projects">
+            <h3 class="section-heading">projects</h3>
+            <div class="project-lists" >
+            </div>
+        </div>
+    </div>
+    <div class="main-section contact-section" id="contact">
+        <div class="contact-me">
+            <h3 class="contact-me-label section-heading">Contact Me</h3>
+            <form action="" class="contact-form">
+                <div class="email-id">
+                    <label for="c-email" class="form-label">Email ID</label>
+                    <input type="email" name="form-input form-email" id="c-email" placeholder="abc@xyz.com">
+                </div>
+                <div class="phone-number">
+                    <label for="c-phone" class="form-label">Phone Number</label>
+                    <input type="tel" name="form-phone-number" id="c-phone" placeholder="+xx xxxxxxxxxx">
+                </div>
+                <div class="full-name">
+                    <label for="c-name" class="form-label">Full Name</label>
+                    <input type="text" name="form-input form-full-name" id="c-name" placeholder="John Smith">
+                </div>
+                <div class="subject">
+                    <label for="c-subject" class="form-label">Subject</label>
+                    <textarea name="" id="c-subject" cols="30" rows="10" class="form-subject" placeholder="Message for email"></textarea>
+                </div>
+                <div class="submit-btn">
+                    <button class="btn btn-form-submit form-btn">Submit</button>
+                </div>
+            </form>
+            <div class="contact-location">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.3148583100697!2d77.279421175179!3d28.620324084635563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce350cb2deef7%3A0xf73e62bc19a5fa1e!2sKali%20Bari%20Temple!5e0!3m2!1sen!2sin!4v1703532752277!5m2!1sen!2sin" allowfullscreen="ture" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h5 class="footer-heading">Usefull links</h5>
+        <ul class="footer-links">
+        </ul>
+    </footer>
+    
+    </body>
+    </html>
