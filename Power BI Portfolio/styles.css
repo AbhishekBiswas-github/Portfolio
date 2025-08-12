@@ -1,0 +1,226 @@
+:root {
+  --accent: #3b82f6;
+  --text: #222;
+  --bg: #f8fafc;
+  --shadow: 0 6px 24px rgba(40, 70, 140, 0.09);
+  --border-radius: 18px;
+}
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+header {
+  padding: 28px 0 32px 0;
+  text-align: center;
+  background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+  color: #f0f4f8;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.05em;
+  border-radius: 0 0 24px 24px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+  margin: 16px auto 0 auto;
+  color: #d1d9e6;
+  font-size: 1.2rem;
+  font-weight: 400;
+  max-width: 900px;
+  line-height: 1.5;
+  font-style: italic;
+}
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  padding: 28px 2vw 50px 2vw;
+  max-width: 2048px;
+  margin: auto;
+}
+.project-card {
+  background: #fff;
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  border: 1.5px solid #eaeaea;
+  transition: box-shadow 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project-card:hover {
+  box-shadow: 0 10px 32px rgba(40, 70, 140, 0.16);
+  border-color: var(--accent);
+  transform: translateY(-2px) scale(1.02);
+}
+.project-image {
+  height: 200px;
+  width: 105%;
+  object-fit: cover;
+  background: #dce3ea;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+.card-content {
+  /* padding: 24px 22px 20px 22px; */
+  padding: 20px 0px 14px 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 6px 0;
+  color: var(--text);
+}
+.card-date {
+  color: #6b7280;
+  font-size: 0.96rem;
+  /* margin-bottom: 12px; */
+}
+.card-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 24px;
+  justify-content: center;
+  padding: 0 16px 0 16px;
+}
+.tool-chip {
+  background: #f2f5fa;
+  color: #465478;
+  border-radius: 6px;
+  padding: 4px 11px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 1px solid #e0e6ec;
+}
+.card-action {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.repo-btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 7px;
+  padding: 11px 26px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.18s;
+  width: 100%;
+  text-align: center;
+}
+.repo-btn:hover,
+.repo-btn:focus {
+  background: #2563eb;
+  color: #fff;
+}
+footer {
+  background: linear-gradient(90deg, #182848 0%, #4b6cb7 100%);
+  color: #f0f4f8;
+  padding: 28px 0 18px 0;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 48px;
+  box-shadow: 0 -2px 16px rgba(36, 54, 84, 0.06);
+  border-radius: 20px 20px 0 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.footer-dot {
+  color: #8695b8;
+  font-size: 1.2em;
+}
+
+.footer-links {
+  display: flex;
+  gap: 22px;
+  margin-top: 4px;
+}
+
+.footer-links a {
+  color: #b2cbf7;
+  text-decoration: none;
+  transition: color 0.17s;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  color: #fbbf24;
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .footer-container {
+    font-size: 0.97rem;
+  }
+  .footer-links {
+    gap: 13px;
+  }
+}
+
+@media (max-width: 780px) {
+  header p {
+    padding: 0 18px;
+  }
+  .projects-grid {
+    gap: 20px;
+  }
+  .project-card {
+    width: 99vw;
+    max-width: 410px;
+  }
+}
+@media (max-width: 500px) {
+  header {
+    margin-bottom: 24px;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .projects-grid {
+    padding: 6px 16px 40px 16px;
+  }
+  .card-content {
+    padding: 17px 10px 17px 10px;
+  }
+  .project-image {
+    height: 140px;
+  }
+}
